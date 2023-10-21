@@ -6,14 +6,14 @@ const sora = Sora({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
 });
 
-import Header from "../components/Header";
+import Nav from "../components/Nav";
 
 const Layout = ({ children }) => {
   return (
     <div
       className={`page bg-site text-white bg-cover bg-no-repeat ${sora.variable} font-sora relative`}
     >
-      <Header />
+      <Nav />
       {children}
     </div>
   );

@@ -2,7 +2,6 @@ import "../styles/globals.css";
 
 //components
 import Layout from "../components/Layout";
-
 import { useRouter } from "next/router";
 import { AnimatePresence, motion } from "framer-motion";
 

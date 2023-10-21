@@ -1,5 +1,3 @@
-import image from "next/image";
-
 import ParticlesContainer from "../components/ParticlesContainer";
 import ProjectsBtn from "../components/ProjectsBtn";
 import Avatar from "../components/Avatar";
@@ -12,11 +10,10 @@ import { fadeIn } from "../variants";
 const Home = () => {
   return (
     <div className="bg-primary/60 h-full">
-      <ParticlesContainer />
+      {/* <ParticlesContainer /> */}
       {/*text*/}
-      <div className="w-full h-full bg-gradint-to-r from-primary/10 via-black/30 to-black/10">
-        <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">
-          {/* title */}
+      {/* <div className="w-full h-full bg-gradint-to-r from-primary/10 via-black/30 to-black/10">
+        <div className="flex flex-col justify-center xl:text-left h-full container mx-auto">
           <motion.h1
             variants={fadeIn("down", 0.2)}
             initial="hidden"
@@ -25,9 +22,8 @@ const Home = () => {
             className="h1"
           >
             Transformer Les Idées <br /> En{" "}
-            <span className="text-accent">Réalité Numérique</span>
+            <span className="text-accent">Réalités Numériques</span>
           </motion.h1>
-          {/* subtitle */}
           <motion.p
             variants={fadeIn("down", 0.3)}
             initial="hidden"
@@ -39,12 +35,11 @@ const Home = () => {
             amet. Ea et ex culpa nulla aliqua tempor nulla nostrud est duis
             culpa amet.
           </motion.p>
-          {/* btn */}
           <div className="flex justify-center xl:hidden relative">
             <ProjectsBtn />
           </div>
         </div>
-      </div>
+      </div> */}
       {/*image*/}
       <motion.div
         variants={fadeIn("up", 0.5)}
